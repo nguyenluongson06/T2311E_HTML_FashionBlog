@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KATHARINE BLOG</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -56,13 +53,13 @@
 <body>
 
     <header>
-        <?php include("components/header.html") ?>
+        <?php include("components/header.html"); ?>
     </header>
 
     <main>
         <div class="post">
-            <h2>Spring Fashion Trends 20XX</h2>
-            <img src="spring-fashion.jpg" alt="Spring Fashion Trends">
+            <h2>Spring Fashion Trends </h2>
+            <img src="images/blogimg/b1.jpg" alt="welcome">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat euismod bibendum. Donec sed metus in velit finibus vehicula nec nec justo. Integer ac dui ac nisl efficitur ultricies.</p>
             <p>Phasellus non tortor justo. Integer nec ipsum magna. Nulla facilisi. Cras fringilla augue id libero tristique, a pharetra ex venenatis. Nullam nec quam eu risus fringilla malesuada.</p>
         </div>
@@ -77,7 +74,7 @@
     </main>
 
     <footer>
-        <?php include("components/footer.html") ?>
+        <?php include("components/footer.html"); ?>
     </footer>
 
 </body>

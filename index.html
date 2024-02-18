@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- common header -->
-    <?php include("components/header.html") ?>
+    <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+    <iframe src="components/header.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
     <!-- main content section -->
-
     <section class="section-content">
 
             <div class="welcome-cover" style="background-image: url('images/slider.jpg');">
@@ -115,9 +114,7 @@
 
         </section>
 
-    <!-- common footer -->
-    <?php include("components/footer.html") ?>
-
-    <script src="js/main.js"></script>
+    <!-- iframe for footer -->
+    <iframe src="components/footer.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 </body>
 </html>

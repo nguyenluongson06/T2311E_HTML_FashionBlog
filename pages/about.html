@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <?php include("../components/header.html") ?>
+    <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+    <iframe src="../components/header.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+
     <div class="wrapper">
         <section class="section-content">
             <div class="container">
@@ -113,15 +115,16 @@
                             </div>
                         </article>
                     </div>
-
-                    <?php include("../components/sidebar.html")?>
+                        
+                    <div class="col-sm-4 sidebar">
+                        <iframe src="../components/sidebar.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <?php include("../components/footer.html") ?>
-
-    <script src="js/main.js"></script>
+    <!-- iframe for footer -->
+    <iframe src="../components/footer.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 </body>
 </html>

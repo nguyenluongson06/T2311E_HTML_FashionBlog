@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
-    <?php include("../components/header.html") ?>
+    <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+    <iframe src="../components/header.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
     <section class="section-content">
         <div class="container">
@@ -60,16 +60,17 @@
                         <p>Quần áo mùa thu thường được thiết kế để chống chọi với sự chuyển đổi từ thời tiết ấm áp của mùa hè sang những ngày se lạnh của mùa đông, quần áo mùa thu không chỉ là về việc chuẩn bị cho thời tiết mát mẻ mà còn là về phong cách và thoải mái.</p>
                     </article>
                 </div>
-                <?php include("../components/sidebar.html")?>
+                
+                <div class="col-sm-4 sidebar">
+                    <iframe src="../components/sidebar.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                </div>
             </div>
         </div>
 
         
     </section>
 
-   
-    <?php include("../components/footer.html") ?>
-    
-    <script src="js/main.js"></script>
+    <!-- iframe for footer -->
+    <iframe src="../components/footer.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 </body>
 </html>

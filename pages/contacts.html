@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
-    <iframe src="../components/header.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
-    <div class="">
-        <section class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-8">
-                        <article class="blog-item blog-single">
-                            <div class="entry-date">
-                                <span>Contact Us</span>
-                            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacts</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/welcome.css">
+    </head>
 
-                            <h1 class="post-title">
-                                We Love to Hear from You
-                            </h1>
+    <body>
+        <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+        <iframe src="../components/header.html"
+            onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+            style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
-                            <div class="entry-excerpt">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <p><input type="text" name="name" placeholder="Your name..."></p>
-                                            <p><input type="text" name="phoneNum" placeholder="Phone number..."></p>
-                                            <p><input type="email" name="email" placeholder="Your email..."></p>
-                                            <p><input type="text" name="subject" placeholder="Subject..."></p>
+        <div class="">
+            <section class="section-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-8">
+                            <article class="blog-item blog-single">
+                                <div class="entry-date">
+                                    <span>Contact Us</span>
+                                </div>
+
+                                <h1 class="post-title">
+                                    We Love to Hear from You
+                                </h1>
+
+                                <div class="entry-excerpt">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p><input type="text" name="name" placeholder="Your name..."></p>
+                                                <p><input type="text" name="phoneNum" placeholder="Phone number..."></p>
+                                                <p><input type="email" name="email" placeholder="Your email..."></p>
+                                                <p><input type="text" name="subject" placeholder="Subject..."></p>
+                                            </div>
+
+                                            <div class="col-sm-6">
+                                                <textarea placeholder="Message..."></textarea>
+                                                <button type="submit" class="button-full button-fill">Send
+                                                    Message</button>
+                                            </div>
                                         </div>
+                                    </form>
+                                </div>
+                            </article>
+                        </div>
 
-                                        <div class="col-sm-6">
-                                            <textarea placeholder="Message..."></textarea>
-                                            <button type="submit" class="button-full button-fill">Send Message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="col-sm-4 sidebar">
-                        <iframe src="../components/sidebar.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                        <div class="col-sm-4 sidebar">
+                            <iframe src="../components/sidebar.html"
+                                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
 
-    <!-- iframe for footer -->
-    <iframe src="../components/footer.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-</body>
+        <!-- iframe for footer -->
+        <iframe src="../components/footer.html"
+            onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+            style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+    </body>
+
 </html>

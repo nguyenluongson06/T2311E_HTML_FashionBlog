@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fashion Blog</title>
+        <title>Blog</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,90 +15,239 @@
     </head>
 
     <body>
-        <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
-        <iframe src="../components/header.html"
-            onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-            style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+        <div class="wrapper">
+            <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+            <iframe src="../components/header.html"
+                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
 
-        <section class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-8">
-                        <article class="blog-item">
-                            <h2 class="post-title">Quần Áo Mùa Xuân</h2>
-                            <div class="entry-media">
-                                <a href="#" class="el-link">
-                                    <img src="../images/blogimg/b1.jpg" alt="Ảnh đồ xuân" class="featured-image">
-                                    <div class="entry-overlay"></div>
-                                </a>
-                            </div>
-                            <div class="entry-excerpt">
-                                <p class="text-center">Quần áo xuân là bộ sưu tập đặc trưng được thiết kế để phản ánh
-                                    tinh thần của mùa xuân. Trong thời trang, mỗi mùa đều mang đến một loạt các xu hướng
-                                    và phong cách riêng biệt, và quần áo xuân không phải là ngoại lệ,quần áo xuân không
-                                    chỉ là về phong cách mà còn là về cách bạn cảm nhận về mùa xuân và cảm xúc mà nó đem
-                                    lại. Hãy tự do để thể hiện phong cách và cá nhân của bạn thông qua bộ sưu tập quần
-                                    áo xuân của mình!</p>
-                            </div>
-                        </article>
+            <section class="section-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-8">
+                            <article class="blog-item blog-single">
+                                <div class="entry-date">
+                                    <img src="../images/svg/clock.svg" alt="clock icon" class="icon-clock">
+                                    <span>march 18 th  2015  -  Fashion</span>
+                                </div>
 
-                        <article class="blog-item">
-                            <h2 class="post-title">Quần Áo Mùa Hè</h2>
-                            <div class="entry-media">
-                                <a href="#" class="el-link">
-                                    <img src="../images/blogimg/b2.jpg" alt="Ảnh đồ hè" class="featured-image">
-                                    <div class="entry-overlay"></div>
-                                </a>
-                            </div>
-                            <p>Quần áo mùa hè được thiết kế để mang lại sự thoải mái và mát mẻ trong những ngày nắng
-                                nóng của mùa hè, quần áo mùa hè không chỉ là về phong cách mà còn là về sự thoải mái và
-                                bảo vệ sức khỏe. Hãy chọn những bộ trang phục phản ánh phong cách của bạn và giúp bạn
-                                cảm thấy thoải mái nhất trong những ngày nắng nóng của mùa hè.</p>
-                        </article>
+                                <h1 class="post-title">
+                                    The weather started rough the tiny ship
+                                </h1>
 
-                        <article class="blog-item">
-                            <h2 class="post-title">Quần Áo Mùa Đông</h2>
-                            <div class="entry-media">
-                                <a href="#" class="el-link">
-                                    <img src="../images/blogimg/b3.jpg" alt="Ảnh đồ đông" class="featured-image">
-                                    <div class="entry-overlay"></div>
-                                </a>
-                            </div>
-                            <p>Quần áo mùa đông được thiết kế để giữ ấm và bảo vệ cơ thể khỏi thời tiết lạnh giá của mùa
-                                đông, quần áo mùa đông không chỉ là về việc giữ ấm mà còn là về phong cách và sự bảo vệ
-                                sức khỏe. Hãy chọn những bộ trang phục phản ánh phong cách của bạn và giúp bạn cảm thấy
-                                ấm áp và thoải mái trong mùa đông.</p>
-                        </article>
+                                <div class="entry-media">
+                                    <a href="single.html" class="el-link">
+                                        <img src="../images/blog/single-thumb.jpg" alt="blog image">
+                                        <div class="entry-overlay"></div>
+                                    </a>
+                                </div>
 
-                        <article class="blog-item">
-                            <h2 class="post-title">Quần Áo Mùa Đông</h2>
-                            <div class="entry-media">
-                                <a href="#" class="el-link">
-                                    <img src="../images/blogimg/b4.jpg" alt="Ảnh đồ thu" class="featured-image">
-                                    <div class="entry-overlay"></div>
-                                </a>
-                            </div>
-                            <p>Quần áo mùa thu thường được thiết kế để chống chọi với sự chuyển đổi từ thời tiết ấm áp
-                                của mùa hè sang những ngày se lạnh của mùa đông, quần áo mùa thu không chỉ là về việc
-                                chuẩn bị cho thời tiết mát mẻ mà còn là về phong cách và thoải mái.</p>
-                        </article>
-                    </div>
+                                <div class="entry-meta">
+                                    <span>
+                                        <img src="../images/svg/heart.svg" alt="svg image">
+                                        <span>14</span>
+                                        <img src="../images/svg/comment.svg" alt="svg image">
+                                        <span>5</span>
+                                    </span>
+                                </div>
 
-                    <div class="col-sm-4 sidebar">
-                        <iframe src="../components/sidebar.html"
-                            onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-                            style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                                <div class="entry-excerpt">
+                                    <p>
+                                        <span class="dropcap">T</span> he first mate and his Skipper too will do their very best to make the others comfortable in
+                                        their tropic island nest on the most sensational inspirational celebrational muppetational
+                                        this is what we call the muppet show <strong>black gold</strong> making your way in the world today takes
+                                        everything you have got. Taking a break from all your worries sure would help a lot. Here's the story
+                                        of a lovely lady who was bringing up three <span class="color-brand">very lovely</span> girls so lets make the most of this beautiful day.
+                                    </p>
+    
+                                    <blockquote>
+                                        It's time to put on makeup it's time to dress up right to raise the curtain on the muppet
+                                        show tonight love exciting and new come aboard were expecting you tomorrow.
+                                    </blockquote>
+    
+                                    <p>
+                                        They were four men living all together yet they were all alone you wanna be where you can see our
+                                        troubles are all the same you wanna be where <strong><i class="color-brand">everybody knows</i></strong> your name a man is born.
+                                    </p>
+    
+                                    <p>
+                                        He is a man of means then along come two they got nothing but their jeans said californey is the
+                                        place you ought to be so they loaded up the truck and moved to beverly hills that is swimming pools
+                                        <strong>movie stars</strong> here is the story of a man named brady who was busy with three boys of his own.
+                                    </p>
+    
+                                    <br>
+                                    <h3>BRADY ROGER</h3>
+    
+                                    <p>
+                                        The mate was a mighty sailing man the skipper brave and sure five passengers set sail that day for a three hour tour a three hour tour and if you threw a party invited everyone you knew you would see the biggest gift would be from me and the card attached would say thank you for being a friend.
+                                    </p>
+    
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Loaded up the truck and moved around</li>
+                                                <li>Flying away on a wing to the blue sky</li>
+                                                <li>Castaways here on Gilligans Isle planet</li>
+                                                <li>Songs that made the hit parade victory</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Loaded up the truck and moved around</li>
+                                                <li>Flying away on a wing to the blue sky</li>
+                                                <li>Castaways here on Gilligans Isle planet</li>
+                                                <li>Songs that made the hit parade victory</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <br>
+                                    <p>
+                                        Believe it or not I'm walking on air i never thought I could feel so free but they got different strokes  It takes different strokes it takes different strokes to move the world of this beautiful day.
+                                    </p>
+                                </div>
+
+                                <!--TODO : check icon fb,twit,gg+-->
+                                <div class="entry-social">
+                                    <a href="javascript:;"><i class="fa fa-facebook"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-twitter"></i></a>
+                                    <a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+                                </div>
+
+                                <div class="seperator"><span></span></div>
+
+                                <br>
+
+                                <div class="author-info">
+                                    <a href="javascript:;" class="author-image">
+                                        <img src="../images/blog/author.png" alt="avatar">
+                                    </a>
+                                    <div class="info-entry">
+                                        <div class="info-title">
+                                            <h5><a href="javascript:;">Johny Rooswalt</a></h5>
+                                            <p>
+                                                Sometimes you want to go where everybody knows your name. And they're always glad you came. Sunny Days sweepin' the clouds away. On my way to where the air is sweet can you tell me how to get.
+                                            </p>
+                                            <div class="info-social">
+                                                <a href="javascript:;" class="fb"><i class="fa fa-facebook"></i></a>
+                                                <a href="javascript:;" class="tw"><i class="fa fa-twitter"></i></a>
+                                                <a href="javascript:;" class="tm"><i class="fa fa-google-plus"></i></a>
+                                                <a href="javascript:;" class="gp"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <div id="comments" class="comments-area">
+                                <div class="comments-wrapper">
+                                    <h2 class="comments-title">Comments (3)</h2>
+                                    <ol class="comment-list">
+                                        <li>
+                                            <article>
+                                                <div class="comment-avatar">
+                                                    <img alt="Image" src="../images/blog/comment1.png" class="avatar">
+                                                </div>
+    
+                                                <div class="comment-body">
+                                                    <div class="meta-data">
+                                                        <a href="#" class="comment-author">William alfred</a>
+                                                        <span class="comment-date">Jan 07, 2016 at 11:00 pm</span>
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant. Here's the story of a lovely lady who was bringing up three very lovely girls. They were four men living all together yet they were all alone.
+                                                    </div>
+                                                    <span class="comment-reply">
+                                                        <a class="comment-reply-link" href="#">Reply</a>
+                                                    </span>
+                                                </div>
+                                            </article>
+    
+                                            <ol>
+                                                <li>
+                                                    <article>
+                                                        <div class="comment-avatar">
+                                                            <img alt="Image" src="../images/blog/comment2.png" class="avatar">
+                                                        </div>
+    
+                                                        <div class="comment-body">
+                                                            <div class="meta-data">
+                                                                <a href="#" class="comment-author">Kennedy</a>
+                                                                <span class="comment-date">Jan 07, 2016 at 11:00 pm</span>
+                                                            </div>
+                                                            <div class="comment-content">
+                                                                Those were the days. Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. We're gonna make our dreams come true. Goodbye gray sky hello blue. 
+                                                            </div>
+                                                            <span class="comment-reply">
+                                                                <a class="comment-reply-link" href="#">Reply</a>
+                                                            </span>
+                                                        </div>
+                                                    </article>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li>
+                                            <article>
+                                                <div class="comment-avatar">
+                                                    <img alt="Image" src="../images/blog/comment3.png" class="avatar">
+                                                </div>
+                                                <div class="comment-body">
+                                                    <div class="meta-data">
+                                                        <a href="#" class="comment-author">David</a>
+                                                        <span class="comment-date">Feb 02, 2016 at 11:00 pm</span>
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        Flipper lives in a world full of wonder flying there-under under the sea. That this group would somehow form a family that's the way we all became the Brady Bunch. Now were up in the big leagues getting our turn at bat. Making your way in the world today.
+                                                    </div>
+                                                    <span class="comment-reply">
+                                                        <a class="comment-reply-link" href="#">Reply</a>
+                                                    </span>
+                                                </div>
+                                            </article>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div id="respond" class="comment-respond">
+                                    <h3 id="reply-title" class="comment-reply-title">Leave a comment</h3>
+                                    <form method="post" id="commentform" class="comment-form" novalidate="">
+                                        <div class="row">
+                                            <p class="comment-form-author col-sm-6">
+                                                <input id="author" name="author" type="text" value="" size="30" placeholder="Your Name *">
+                                            </p>
+                                            <p class="comment-form-email col-sm-6">
+                                                <input id="email" name="email" type="email" value="" size="30" placeholder="Your E-mail *">
+                                            </p>
+                                        </div>
+                                        <p class="comment-form-comment">
+                                            <textarea id="comment" name="comment" placeholder="Comments"></textarea>
+                                        </p>
+                                        <p class="form-submit">
+                                            <span>The required fields have * symbols</span>
+                                            <input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID">
+                                        </p>                    
+                                    </form>
+                                </div>
+    
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 sidebar">
+                            <iframe src="../components/sidebar.html"
+                                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-
-        </section>
-
-        <!-- iframe for footer -->
-        <iframe src="../components/footer.html"
-            onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-            style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+            <!-- iframe for footer -->
+            <iframe src="../components/footer.html"
+                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+        </div>
     </body>
 
 </html>

@@ -41,6 +41,8 @@
     margin-right: 10px;
 }
 
+.welcome-cover .view-more {}
+
 .welcome-cover .view-more a {
     margin-bottom: 10px;
 }
@@ -50,6 +52,13 @@
         text-align: right;
     }
 }
+
+
+
+
+.welcome-content {}
+
+.welcome-content .welcome-item {}
 
 .welcome-content .welcome-item a {
     background-position: left top;

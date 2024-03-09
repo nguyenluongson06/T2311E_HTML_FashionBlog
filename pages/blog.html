@@ -1,183 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Blog</title>
+		<link
+			rel="stylesheet"
+			href="../css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<link
+			rel="stylesheet"
+			href="../css/welcome.css" />
+	</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog</title>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/welcome.css">
-    </head>
+	<body>
+		<div class="wrapper">
+			<!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
+			<iframe
+				src="../components/header.html"
+				onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+				style="
+					height: 200px;
+					width: 100%;
+					border: none;
+					overflow: hidden;
+				"></iframe>
 
-    <body>
-        <div class="wrapper">
-            <!-- iframe for header, as GitHub Pages only supports HTML, not PHP-->
-            <iframe src="../components/header.html"
-                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+			<section class="section-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-8">
+							<article class="blog-item blog-single">
+								<div class="entry-date">
+									<img
+										src="../images/svg/clock.svg"
+										alt="clock icon"
+										class="icon-clock" />
+									<span>march 4 th 2023 - Fashion</span>
+								</div>
 
-            <section class="section-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-md-8">
-                            <article class="blog-item blog-single">
-                                <div class="entry-date">
-                                    <img src="../images/svg/clock.svg" alt="clock icon" class="icon-clock">
-                                    <span>march 4 th  2023  -  Fashion</span>
-                                </div>
+								<h2 class="post-title">
+									<a href="../pages/blog1.html">
+										The weather started rough the tiny ship
+									</a>
+								</h2>
 
-                                <h2 class="post-title">
-                                    The weather started rough the tiny ship
-                                </h2>
+								<div class="entry-media">
+									<a
+										class="el-link"
+										href="../pages/blog1.html">
+										<img
+											src="../images/blog/blog1-thumb.jpg"
+											alt="blog image" />
+										<div class="entry-overlay"></div>
+									</a>
+								</div>
 
-                                <div class="entry-media">
-                                    <a class="el-link">
-                                        <img src="../images/blog/single-thumb.jpg" alt="blog image">
-                                        <div class="entry-overlay"></div>
-                                    </a>
-                                </div>
+								<div class="entry-meta">
+									<span>
+										<img
+											src="../images/svg/heart.svg"
+											alt="svg image" />
+										<span>80</span>
+										<img
+											src="../images/svg/comment.svg"
+											alt="svg image" />
+										<span>21</span>
+									</span>
+								</div>
 
-                                <div class="entry-meta">
-                                    <span>
-                                        <img src="../images/svg/heart.svg" alt="svg image">
-                                        <span>80</span>
-                                        <img src="../images/svg/comment.svg" alt="svg image">
-                                        <span>21</span>
-                                    </span>
-                                </div>
+								<div class="entry-excerpt">
+									<p class="text-center">
+										The first mate and his Skipper too will do their very best
+										to make the others comfortable in their tropic island nest!
+										Michael Knight a young loner on a crusade to champion. They
+										are all together ooky the Addams Family. We are gonna do it.
+									</p>
+								</div>
+							</article>
 
-                                <div class="entry-excerpt">
-                                    <p class="text-center">
-                                        The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest! Michael Knight a young loner on a crusade to champion. They are all together ooky the Addams Family. We are gonna do it. 
-                                    </p>
-                                </div>
-                            </article>
+							<article class="blog-item">
+								<div class="entry-date">
+									<img
+										src="../images/svg/clock.svg"
+										alt="clock icon"
+										class="icon-clock" />
+									<span>August 21 th 2023 - Fashion</span>
+								</div>
 
-                            <article class="blog-item">
-                                <div class="entry-date">
-                                    <img src="../images/svg/clock.svg" alt="clock icon" class="icon-clock">
-                                    <span>August 21 th  2023  -  Fashion</span>
-                                </div>
-    
-                                <h2 class="post-title">
-                                    Flipper lives in a world
-                                </h2>
-    
-                                <div class="entry-media">
-                                    <a class="el-link">
-                                        <img src="../images/pages/h2b2.jpg" alt="blog image">
-                                        <div class="entry-overlay"></div>
-                                    </a>
-                                </div>
-    
-                                <div class="entry-meta">
-                                    <span>
-                                        <img src="../images/svg/heart.svg" alt="svg image">
-                                        <span>28</span>
-                                        <img src="../images/svg/comment.svg" alt="svg image">
-                                        <span>9</span>
-                                    </span>
-                                </div>
-    
-                                <div class="entry-excerpt">
-                                    <p class="text-center">
-                                         The weather started getting rough - the tiny ship was tossed. If not for the courage of the fearless crew the Minnow would be lost. the Minnow would be lost. The ship set ground on the shore of this uncharted desert isle with Gilligan wife.
-                                    </p>
-    
-                                </div>
-    
-                                <div class="seperator"><span></span></div>
-                            </article>
+								<h2 class="post-title">
+									<a href="../pages/blog2.html">Flipper lives in a world</a>
+								</h2>
 
-                            <article class="blog-item">
-                                <div class="entry-date">
-                                    <img src="../images/svg/clock.svg" alt="clock icon" class="icon-clock">
-                                    <span>September 18 th  2023  -  Fashion</span>
-                                </div>
-    
-                                <h2 class="post-title">
-                                    Flipper lives in a world
-                                </h2>
-    
-                                <div class="entry-media">
-                                    <a class="el-link">
-                                        <img src="../images/pages/h2b3.jpg" alt="blog image">
-                                        <div class="entry-overlay"></div>
-                                    </a>
-                                </div>
-    
-                                <div class="entry-meta">
-                                    <span>
-                                        <img src="../images/svg/heart.svg" alt="svg image">
-                                        <span>21</span>
-                                        <img src="../images/svg/comment.svg" alt="svg image">
-                                        <span>8</span>
-                                    </span>
-                                </div>
-    
-                                <div class="entry-excerpt">
-                                    <p class="text-center">
-                                         They were four men living all together yet they were all alone. Well we are moving on up to the east side to a deluxe apartment in the sky. It's time to meet the Muppet Show tonight. And when the odds are against him and their dangers work to do. 
-                                    </p>
-    
-                                </div>
-    
-                                <div class="seperator"><span></span></div>
-                            </article>
+								<div class="entry-media">
+									<a
+										class="el-link"
+										href="../pages/blog2.html">
+										<img
+											src="../images/pages/h2b2.jpg"
+											alt="blog image" />
+										<div class="entry-overlay"></div>
+									</a>
+								</div>
 
-                            <article class="blog-item blog-item-quote">
-                                <div class="entry-date">
-                                    <img src="../images/svg/clock.svg" alt="clock icon" class="icon-clock">
-                                    <span>march 18 th  2015  -  Fashion</span>
-                                </div>
-    
-                                <div class="entry-media">
-                                    <blockquote class="quote-element">
-                                        Everything friendly neighbors there that's where we meet can you tell me how to get how to get to sesame street it is mission to explore strange new worlds to seek out new life
-                                        <cite>by <strong>Willam Regal</strong></cite>
-                                    </blockquote>
-                                </div>
-    
-                                <div class="entry-meta">
-                                    <span>
-                                        <img src="../images/svg/heart.svg" alt="svg image">
-                                        <span>18</span>
-                                        <img src="../images/svg/comment.svg" alt="svg image">
-                                        <span>2</span>
-                                    </span>
-                                </div>
-                            </article>
+								<div class="entry-meta">
+									<span>
+										<img
+											src="../images/svg/heart.svg"
+											alt="svg image" />
+										<span>28</span>
+										<img
+											src="../images/svg/comment.svg"
+											alt="svg image" />
+										<span>9</span>
+									</span>
+								</div>
 
-                            <div class="post-navigation mv10">
-                                <ul>
-                                    <li><span>1</span></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                </ul>
-                            </div>
-                        </div>
+								<div class="entry-excerpt">
+									<p class="text-center">
+										The weather started getting rough - the tiny ship was
+										tossed. If not for the courage of the fearless crew the
+										Minnow would be lost. the Minnow would be lost. The ship set
+										ground on the shore of this uncharted desert isle with
+										Gilligan wife.
+									</p>
+								</div>
 
-                        <div class="col-sm-4 sidebar">
-                            <iframe src="../components/sidebar.html"
-                                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-                                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </section>
+								<div class="seperator"><span></span></div>
+							</article>
 
-            <!-- iframe for footer -->
-            <iframe src="../components/footer.html"
-                onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
-                style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-        </div>
-    </body>
+							<article class="blog-item">
+								<div class="entry-date">
+									<img
+										src="../images/svg/clock.svg"
+										alt="clock icon"
+										class="icon-clock" />
+									<span>September 18 th 2023 - Fashion</span>
+								</div>
 
+								<h2 class="post-title">
+									<a href="../pages/blog3.html"> Flipper lives in a world </a>
+								</h2>
+
+								<div class="entry-media">
+									<a
+										class="el-link"
+										href="../pages/blog3.html">
+										<img
+											src="../images/pages/h2b3.jpg"
+											alt="blog image" />
+										<div class="entry-overlay"></div>
+									</a>
+								</div>
+
+								<div class="entry-meta">
+									<span>
+										<img
+											src="../images/svg/heart.svg"
+											alt="svg image" />
+										<span>21</span>
+										<img
+											src="../images/svg/comment.svg"
+											alt="svg image" />
+										<span>8</span>
+									</span>
+								</div>
+
+								<div class="entry-excerpt">
+									<p class="text-center">
+										They were four men living all together yet they were all
+										alone. Well we are moving on up to the east side to a deluxe
+										apartment in the sky. It's time to meet the Muppet Show
+										tonight. And when the odds are against him and their dangers
+										work to do.
+									</p>
+								</div>
+
+								<div class="seperator"><span></span></div>
+							</article>
+
+							<article class="blog-item blog-item-quote">
+								<div class="entry-date">
+									<img
+										src="../images/svg/clock.svg"
+										alt="clock icon"
+										class="icon-clock" />
+									<span>march 18 th 2015 - Fashion</span>
+								</div>
+
+								<div class="entry-media">
+									<blockquote class="quote-element">
+										Everything friendly neighbors there that's where we meet can
+										you tell me how to get how to get to sesame street it is
+										mission to explore strange new worlds to seek out new life
+										<cite>by <strong>Willam Regal</strong></cite>
+									</blockquote>
+								</div>
+
+								<div class="entry-meta">
+									<span>
+										<img
+											src="../images/svg/heart.svg"
+											alt="svg image" />
+										<span>18</span>
+										<img
+											src="../images/svg/comment.svg"
+											alt="svg image" />
+										<span>2</span>
+									</span>
+								</div>
+							</article>
+
+							<div class="post-navigation mv10">
+								<ul>
+									<li><span>1</span></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-sm-4 sidebar">
+							<iframe
+								src="../components/sidebar.html"
+								onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+								style="
+									height: 200px;
+									width: 100%;
+									border: none;
+									overflow: hidden;
+								"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- iframe for footer -->
+			<iframe
+				src="../components/footer.html"
+				onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));'
+				style="
+					height: 200px;
+					width: 100%;
+					border: none;
+					overflow: hidden;
+				"></iframe>
+		</div>
+	</body>
 </html>
